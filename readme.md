@@ -3,3 +3,8 @@
 
 * Plik <b>main.py</b> musi zawierać kod do uruchomienia.
 * Jeżeli używane są biblioteki niestandardowe (których nie posiada sprawdzarka) - wymieniamy ich nazwy wraz z wersjami w pliku <b>requirements.txt</b>.
+
+- podać input, który mówi ile zdań (zapytań) ma być
+- wpisuje się te swoje zdania 
+- potem kolejny input liczbowy, i podaje się daną liczbę słów, po których się wyszukuje
+- wypisywane są dla każdego inputu dokumenty, w których najwięcej razy wystąpiło dane słowo
