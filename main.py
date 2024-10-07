@@ -7,3 +7,5 @@ wyraz=wyraz.strip()
 
 #Wydruk na ekranie (w konsoli)
 print ('Ten wyraz został wprowadzony:', wyraz)
+
+x=1
