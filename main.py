@@ -20,7 +20,7 @@ def sortowanie(macierz):
 
 def zadanie():
 
-    liczba_zdan = int(input("Podaj liczbe zdan \n")).strip()
+    liczba_zdan = int(input("Podaj liczbe zdan \n"))
     zdania = []
     for i in range(0, liczba_zdan):
         zdanie_input = input(f"Podaj {i+1} zdanie: \n").strip()
@@ -28,7 +28,7 @@ def zadanie():
         zdanie_bez_interpunkcji = zdanie_input.translate(str.maketrans('', '', string.punctuation))
         zdania.append(zdanie_bez_interpunkcji)
 
-    liczba_slow = int(input("Podaj liczbę słów: \n")).strip()
+    liczba_slow = int(input("Podaj liczbę słów: \n"))
     pusta_macierz = [[[i, 0] for i in range(liczba_zdan)] for _ in range(liczba_slow)]
     for i in range(0, liczba_slow): 
         slowo = input("Podaj słowo: \n").strip()
